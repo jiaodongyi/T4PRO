@@ -21,6 +21,11 @@ public class CalcTest
 
         assertEquals(Calc.add(1,1), 2);
     }
-    
+    @Test
+    public void appTest2()
+    {
+
+        assertEquals(Calc.add(1,1), 0);
+    }
 
 }
