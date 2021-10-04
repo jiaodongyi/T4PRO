@@ -25,7 +25,7 @@ public class CalcTest
     public void appTest2()
     {
 
-        assertEquals(Calc.add(1,1), 0);
+        assertEquals(Calc.subtract(1,1), 0);
     }
 
 }
